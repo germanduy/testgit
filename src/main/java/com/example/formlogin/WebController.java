@@ -22,4 +22,5 @@ public class WebController {
         model.addAttribute("yourname", yourname);
         return "hello";
     }
+    public String Duy(){return "aa";};
 }
